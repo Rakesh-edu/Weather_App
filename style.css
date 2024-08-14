@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+.main{
+    height: 100vh;
+    width: 100%;
+    background-color: #000000;
+    display: flex;flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    height: 100px;
+    width: 300px;
+    display: flex;justify-content: center;align-items: center;
+    font-size: 50px;
+    color: rgb(0, 195, 255);
+}
+.right-now{
+    height: 70px;
+    width: 350px;
+    margin-top: 5px;
+    color: white;
+}
+.search-box{
+    height: 140px;
+    width: 500px;
+    background-color: #ffffff;
+    margin-top: 10px;
+    display: flex;justify-content: center;align-items: center;
+}
+.output{
+    height: 150px;
+    width: 300px;
+    background-color: #373455;
+    margin-top: 10px;
+    display: none;
+}
+.get-text{
+    text-align: center;
+    font-size: 25px;
+}
+.right-text{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 5px;
+}
+.input-box{
+    height: 50px;
+    width: 250px;
+    outline: none;
+    font-size: 25px;
+    padding: 5px;
+    background-color: #93cfcf;
+}
+.search{
+    height: 50px;
+    width: 100px;
+    margin: 10px;
+    border-radius: 5px;
+    outline: none;
+    font-size:25px;
+    color: white;
+    background-color: #c50000;
+    cursor: pointer;
+}
+.location{
+    height: 25px;
+    width: 100%;
+    display: flex;justify-content: center;align-items: center;
+    color: white;
+    font-size: 25px;
+}
+.temp{
+    height: 100px;
+    width: 100%;
+    display: flex;justify-content: center;align-items: center;
+}
+.time{
+    height: 25px;
+    width: 100%;
+    display: flex;justify-content: center;align-items: center;
+    color: white;
+    font-size: 25px;
+}
+.degree{
+    font-size: 50px;
+    color: white;
+}
